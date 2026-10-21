@@ -2,7 +2,7 @@ from pdf_reader import extract_text_from_pdf
 from text_chunker import split_text_into_chunks
 
 # Step 1: Extract pages from PDF
-pages = extract_text_from_pdf("check    .pdf")
+pages = extract_text_from_pdf("50 ques.pdf")
 
 # Step 2: Create chunks with page numbers
 chunks = split_text_into_chunks(
